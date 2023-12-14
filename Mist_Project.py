@@ -11,7 +11,7 @@ import argparse
 parser = argparse.ArgumentParser(description="Mist Project")
 parser.add_argument('file', type=str, metavar='', help='Name of the File  \n  Example: "00100" which represents 1.00 Solar Mass')
 parser.add_argument('process',type=str, metavar='', help="\n The process you would like to run \n Options: Interpolation, Integration, Visualization")
-parser.add_argument('style',type=str, metavar='', help="\n The type based on Process \n Interpolation: 'linear', 'gpr',‘nearest’, ‘nearest-up’, ‘zero’, ‘slinear’, ‘quadratic’, ‘cubic’, ‘previous’, or ‘next’. ‘zero’, ‘slinear’, ‘quadratic’ \n Integration: 'trapezoid' , 'simpson', 'midpoint \n Visualization: 'compare','hr','core',radius,'surface' ")
+parser.add_argument('style',type=str, metavar='', help="\n The type based on Process \n Interpolation: 'linear', 'gpr',‘nearest’, ‘nearest-up’, ‘zero’, ‘slinear’, ‘quadratic’, ‘cubic’, ‘previous’, ‘next’, ‘zero’, ‘slinear’, ‘quadratic’ \n Integration: 'trapezoid' , 'simpson', 'midpoint' \n Visualization: 'compare','hr','core',radius,'surface' ")
 parser.add_argument('data_1', type=str,nargs='?',default='star_age', metavar='', help='\n X value \n  Default: "star_age" ')
 parser.add_argument('data_2', type=str,nargs='?',default='log_L', metavar='', help='\n Y value  \n  Default: "log_L"')
 
