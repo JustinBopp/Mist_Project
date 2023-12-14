@@ -13,4 +13,5 @@ Enter the process that you would like to run on the data. Options:\
 'Visualize': creates plots based on the style
 ##### 3rd input:
 Enter the style you would like to perform. Options:\
-'Interpolation' : 
+'Interpolation' : 'linear', 'gpr',‘nearest’, ‘nearest-up’, ‘zero’, ‘slinear’, ‘quadratic’, ‘cubic’, ‘previous’, ‘next’, ‘zero’, ‘slinear’, ‘quadratic’\
+'Integration' : 
