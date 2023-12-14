@@ -1,7 +1,7 @@
 # Mist_Project
 
 ### To run:
-Download the Mist File folder, Mist_project.py and read_mist_models.py. Place both .py files into the folder. 
+Download the Mist File folder, Mist_Project.py and read_mist_models.py. Place both .py files into the folder. Run Mist_Project.py from the command line.
 
 ### Instructions:
 ##### 1st input: 
