@@ -15,5 +15,9 @@ Visualize: creates plots based on the style
 Enter the style you would like to perform. Options:\
 Interpolation : 'linear', 'gpr',‘nearest’, ‘nearest-up’, ‘zero’, ‘slinear’, ‘quadratic’, ‘cubic’, ‘previous’, ‘next’, ‘zero’, ‘slinear’, ‘quadratic’\
 Integration : 'trapezoid' , 'simpson', 'midpoint'\
-Visualize : 
+Visualize :  'compare','hr','core', 'radius', 'surface'
+##### 4th input:
+(default = star_age) The X value
+##### 5th input:
+(default = log_L) The Y value
 
